@@ -32,16 +32,16 @@ class Owner
     @pets
   end
 
-  def buy_fish(new_fish)
-    @pets << Fish.new(new_fish)
+  def buy_fish(name)
+    @pets << Fish.new(name)
   end
 
-  def buy_dog(new_dog)
-    @pets << Dog.new(new_fish)
+  def buy_dog(name)
+    @pets << Dog.new(name)
   end
 
-  def buy_cat(new_cat)
-    @pets << Cat.new(new_fish)
+  def buy_cat(name)
+    @pets << Cat.new(name)
   end
 
   def walk_dogs
