@@ -4,7 +4,7 @@ class Owner
   @@all = []
 
   def count
-    @@all.count
+    @@all.length
   end
 
   def all
