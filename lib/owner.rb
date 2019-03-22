@@ -26,10 +26,6 @@ class Owner
     puts "I am a human."
   end
 
-  def name
-    self.name
-  end
-
   def pets
     @pets
   end
