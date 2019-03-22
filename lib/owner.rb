@@ -43,7 +43,9 @@ class Owner
   end
 
   def walk_dogs
-    self.dogs.mood = "happy"
+    pets[:dogs].each do |dog|
+      dog.mood = "happy"
+    end
   end
 
   def play_with_cats
@@ -53,7 +55,9 @@ class Owner
   end
 
   def feed_fish
-    self.fishes.mood = "happy"
+    pets[:fishes].each do |fish|
+      fish.mood = "happy"
+    end
   end
 
   def sell_pets
