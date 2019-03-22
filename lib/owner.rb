@@ -1,9 +1,9 @@
 class Owner
-attr_reader :species
+  attr_accessor :pets
+  attr_reader :species
 
   def initialize(species)
     @species = species
-    
   end
 
   @@all = []
@@ -12,12 +12,26 @@ attr_reader :species
     @@all.length
   end
 
-  def all
+  def self.all
     @@all
   end
 
-  def reset_all
+  def self.reset_all
     @@all.clear
+  end
+
+  def say_species
+    puts "I am a human."
+  end
+
+  def name
+    self.name
+  end
+
+  def pets
+
+  end
+
   end
 
 end
