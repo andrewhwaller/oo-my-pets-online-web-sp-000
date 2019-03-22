@@ -7,5 +7,8 @@ class Owner
     @@all.length
   end
 
+  def all
+    @@all
+  end
 
 end
