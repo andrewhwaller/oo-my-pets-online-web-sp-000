@@ -3,7 +3,7 @@ class Owner
 
   @@all = []
 
-  def self.count
+  def count
     @@all.length
   end
 
