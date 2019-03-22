@@ -28,8 +28,8 @@ class Owner
     self.name
   end
 
-  def pets
-
+  def pets(pet)
+    @pets << Pet.new(pet)
   end
 
   def buy_fish
