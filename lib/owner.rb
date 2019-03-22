@@ -6,7 +6,7 @@ class Owner
     @species = species
   end
 
-  @@all = []
+  OWNERS = []
 
   def count
     @@all.length
