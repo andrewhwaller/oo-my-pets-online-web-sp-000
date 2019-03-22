@@ -9,7 +9,7 @@ class Owner
   OWNERS = []
 
   def count
-    OWNERS.length
+    OWNERS.size
   end
 
   def self.all
