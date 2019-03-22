@@ -9,11 +9,11 @@ class Owner
   OWNERS = []
 
   def count
-    @@all.length
+    OWNERS.length
   end
 
   def self.all
-    @@all
+    OWNERS
   end
 
   def self.reset_all
